@@ -47,6 +47,22 @@ class MainActivity : AppCompatActivity() {
                     .withIconTintingEnabled(true)
                     .withName("Создать группу")
                     .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_create_groups),
+                PrimaryDrawerItem().withIdentifier(101)
+                    .withIconTintingEnabled(true)
+                    .withName("Создать группу")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_create_groups),
+                PrimaryDrawerItem().withIdentifier(102)
+                    .withIconTintingEnabled(true)
+                    .withName("Создать группу")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_create_groups),
+                PrimaryDrawerItem().withIdentifier(103)
+                    .withIconTintingEnabled(true)
+                    .withName("Создать группу")
+                    .withSelectable(false)
+                    .withIcon(R.drawable.ic_menu_create_groups)
             ).build()
     }
 
